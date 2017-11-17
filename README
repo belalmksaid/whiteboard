@@ -3,3 +3,28 @@ Whiteboard
 -Set up data structure for board on server side
 -Finish post function on server side
 -Finish get function
+
+
+
+Data structure:
+|  Key	| Value	|
+| Time	|  ID	|
+|	|	|
+|	|	|
+
+|	|	|
+|	|	|
+|	|	|	
+
+JSON:
+action: {
+	id: 2132,
+	t: 0,
+	x: 23.2,
+	y: 12.2
+}
+
+types:
+0 - moveTo
+1 - lineTo
+2 - clear
